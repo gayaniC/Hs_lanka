@@ -1,0 +1,132 @@
+/* Developed by LK Designers - Web application development and SEO agency in Sri Lanka */
+/* Website: https://lkdesigners.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    
+}
+.logo-heading{
+	 color: #157ebf;
+}
+
+.whatsapp-icon{
+    color: #12960f;
+}
+
+.viber-icon{
+    color: #7b5199;
+}
+
+.imo-height{
+	max-height: 15px;
+    margin-top: -4px;
+}
+
+.header-gradient{
+	height: 600px;
+    background-color: #f9f9f9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f9f9f9, #d2dde3);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #137fbf !important;
+    font-size: small;
+    border-color: #479dd0 !important;
+}
+
+.btn-primary:hover, .btn-primary:visited {
+    background-color: #479dd0 !important;
+    border-color: #479dd0 !important;
+}
+.btn-primary:focus{
+    box-shadow: none;
+}
+.arrow {
+    margin-right: 10px;
+    &::after {
+        display: inline-block;
+        padding-left: 8px;
+        content: "\0279E"; // arrow right unicode
+        -webkit-transition: transform 0.3s ease-out;
+        -moz-transition: transform 0.3s ease-out;
+        -ms-transition: transform 0.3s ease-out;
+        -o-transition: transform 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+    }
+
+    &:hover {
+        
+        &::after {
+            -webkit-transform: translateX(4px);
+            -moz-transform: translateX(4px);
+            -ms-transform: translateX(4px);
+            -o-transform: translateX(4px);
+            transform: translateX(4px);
+        }
+    }
+}
+.ship-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/cargo_ship.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+      
+}
+
+.card-container{
+    width: 440px;
+    height: 250px;
+    position: relative;
+}
+
+.card-gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #bac7cd, rgba(0, 0, 0, 0)); /* Initial gradient */
+    position: absolute;       
+    cursor: pointer;
+    transition: background 0.5s ease, opacity 0.5s ease;
+}
+
+.card-container:hover .card-gradient{
+    background: linear-gradient(to right, #1480c0, rgba(0, 0, 0, 0)); /* Hover gradient */
+    opacity: 1; /* Ensure opacity is part of the transition */
+}
+
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 14%;
+  /*transform: translate(-50%, -50%);*/
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.number-card{
+    font-size: 40px;
+}
+
+.border-right{
+     border-right: 1px solid #9a9ba0;
+}
+
+.zoom {
+  transition: transform 1s; /* Animation */ 
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+.footer-gradient{
+    height: 340px;
+    background-color: #fafafa; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#fafafa, #d2dde3);
+}
+
